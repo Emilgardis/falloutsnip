@@ -50,7 +50,7 @@ namespace FalloutSnip.Domain.Services
         public static void Initialize()
         {
             Platform.Initialize();
-            InitializeMethod.Invoke(null, new object[0]);
+            //InitializeMethod.Invoke(null, new object[0]);
             //string version = (string)VersionMethod.Invoke(null, new object[0]);
         }
 
